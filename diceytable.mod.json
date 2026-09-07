@@ -80,6 +80,12 @@
       "id": "rules",
       "title": "Rules",
       "path": "rules/rules.md"
+    },
+    {
+      "kind": "markdown",
+      "id": "rules-2",
+      "title": "Rules",
+      "path": "rules/rules-2.md"
     }
   ]
 }
