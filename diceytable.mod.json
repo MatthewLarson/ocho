@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ocho",
+  "name": "OCHO",
+  "version": "0.1.0",
+  "type": "game-pack",
+  "entry": {
+    "setup": "setup.json",
+    "script": "scripts/main.js"
+  },
+  "assets": [
+    "assets/decks/deck-1.deck.json",
+    "assets/textures/decks/deck-1/sheet-1.webp",
+    "assets/textures/decks/deck-1/sheet-2.webp",
+    "card_back.webp",
+    "media/cover-thumb.webp",
+    "media/cover.webp",
+    "media/screenshot-0.webp",
+    "media/screenshot-1.webp",
+    "media/screenshot-2.webp"
+  ],
+  "compatibility": {
+    "engine": ">=0.1 <1.0"
+  },
+  "capabilities": {
+    "version": "1",
+    "allowed": [
+      "log"
+    ]
+  },
+  "license": "MIT",
+  "tags": [
+    "uno",
+    "crazy-eights",
+    "ocho",
+    "family",
+    "card-game"
+  ],
+  "slug": "ocho",
+  "summary": "OCHO",
+  "description": "OCHO",
+  "category": "card-game",
+  "players": {
+    "min": 2,
+    "max": 6
+  },
+  "coverImage": "media/cover.webp",
+  "screenshots": [
+    {
+      "path": "media/screenshot-0.webp",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "path": "media/screenshot-1.webp",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "path": "media/screenshot-2.webp",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    }
+  ]
+}
