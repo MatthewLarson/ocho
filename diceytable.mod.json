@@ -73,5 +73,13 @@
         "h": 1
       }
     }
+  ],
+  "rules": [
+    {
+      "kind": "markdown",
+      "id": "rules",
+      "title": "Rules",
+      "path": "rules/rules.md"
+    }
   ]
 }
