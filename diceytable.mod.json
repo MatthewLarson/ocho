@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "ocho",
   "name": "OCHO",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json"
