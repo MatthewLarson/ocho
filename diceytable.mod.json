@@ -2,11 +2,10 @@
   "schemaVersion": "1.0",
   "id": "ocho",
   "name": "OCHO",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "game-pack",
   "entry": {
-    "setup": "setup.json",
-    "script": "scripts/main.js"
+    "setup": "setup.json"
   },
   "assets": [
     "assets/decks/deck-1.deck.json",
