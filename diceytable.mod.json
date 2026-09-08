@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "ocho",
   "name": "OCHO",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json"
@@ -16,7 +16,8 @@
     "media/cover.webp",
     "media/screenshot-0.webp",
     "media/screenshot-1.webp",
-    "media/screenshot-2.webp"
+    "media/screenshot-2.webp",
+    "media/screenshot-3.webp"
   ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
@@ -71,6 +72,15 @@
         "w": 1,
         "h": 1
       }
+    },
+    {
+      "path": "media/screenshot-3.webp",
+      "crop": {
+        "x": 0.0069684183608234584,
+        "y": 0,
+        "w": 0.9860631632783531,
+        "h": 1
+      }
     }
   ],
   "rules": [
@@ -79,6 +89,21 @@
       "id": "rules",
       "title": "Rules",
       "path": "rules/rules.md"
+    }
+  ],
+  "credits": [
+    {
+      "id": "credit-c1f8fec8-d73b-44a7-8f06-04e5bb09f54d",
+      "paths": [
+        "media/screenshot-3.webp"
+      ],
+      "origin": "own-work",
+      "recordedAt": "2026-09-08T03:36:27.476Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-08T03:36:27.476Z",
+        "signedName": "Matt Larson"
+      }
     }
   ]
 }
