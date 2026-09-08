@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "ocho",
   "name": "OCHO",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -37,8 +37,8 @@
     "card-game"
   ],
   "slug": "ocho",
-  "summary": "OCHO",
-  "description": "OCHO",
+  "summary": "Match. Play. Win.",
+  "description": "# OCHO Card Game\n\n### Match. Play. Win.\n\n**OCHO** is a fast-paced color-matching card game for **2–6 players**, combining simple rules with strategic choices, powerful action cards, and unexpected reversals.\n\nMatch the top card by **color, number, or symbol** and race to empty your hand before your opponents. Use Skip, Turn, Draw 2, Wild, and Color Crush cards to disrupt their plans—but be ready, because every penalty carries the possibility of an OCHO Escape.\n\n## What Makes OCHO Different?\n\nThe number eight is more than the game's namesake. It can become your greatest defense.\n\nWhen you are forced to draw cards because of a **Draw 2** or **Color Crush**, draw them one at a time. If you uncover an **8**, the penalty ends immediately and you play that card regardless of the active color. The color of the 8 takes over, potentially changing the entire round.\n\nThis special **OCHO Escape** mechanic keeps every draw suspenseful and gives players a chance to turn a devastating penalty into a game-changing comeback.\n\n## Powerful Action Cards\n\nBuild your strategy around cards that can instantly alter the flow of play:\n\n- **Skip** — Make the next player lose their turn.\n- **Turn** — Reverse the direction of play.\n- **Draw 2** — Force the next player to draw up to two cards.\n- **Wild** — Choose the new active color.\n- **Color Crush** — Choose the active color and force the next player to draw up to four cards.\n- **OCHO Escape** — Draw an 8 during a Draw 2 or Color Crush penalty to stop drawing and immediately play it.\n\n## Don’t Forget to Call OCHO\n\nWhen you play a card and have exactly one card remaining, call out:\n\n> **“OCHO!”**\n\nForget to announce it, and another player may catch you and force you to draw two penalty cards.\n\n## Designed for Fast, Competitive Fun\n\nWith **132 cards**, four vibrant colors, numbers from 1 through 12, and a collection of disruptive special cards, OCHO offers plenty of variety without complicated rules.\n\nIt is an exciting choice for:\n\n- Family game nights\n- Parties and social gatherings\n- Two-player competitions\n- Casual card-game fans\n- Players who enjoy strategy, suspense, and unpredictable comebacks\n\nEvery round is a race. Every special card is an opportunity. Every penalty draw could reveal an escape.\n\n**Match the card. Control the color. Outsmart your opponents. And don’t forget to call OCHO!**",
   "category": "card-game",
   "players": {
     "min": 2,
@@ -72,6 +72,14 @@
         "w": 1,
         "h": 1
       }
+    }
+  ],
+  "rules": [
+    {
+      "kind": "markdown",
+      "id": "rules",
+      "title": "Rules",
+      "path": "rules/rules.md"
     }
   ]
 }
