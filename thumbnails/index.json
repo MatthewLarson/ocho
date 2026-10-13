@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "rendererVersion": 1,
+  "entries": {
+    "@materials/mat-ceiling": {
+      "inputHash": "220ee3bdf8d37625",
+      "file": "thumbnails/@materials/mat-ceiling.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-default": {
+      "inputHash": "eccf03f485688ce9",
+      "file": "thumbnails/@materials/mat-default.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-floor": {
+      "inputHash": "4faeb6a28ac0884c",
+      "file": "thumbnails/@materials/mat-floor.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-wall": {
+      "inputHash": "8b1c33f064be0752",
+      "file": "thumbnails/@materials/mat-wall.webp",
+      "width": 256,
+      "height": 256
+    },
+    "assets/decks/deck-1.deck.json": {
+      "inputHash": "4ae012242d1ad58b",
+      "file": "thumbnails/assets/decks/deck-1.deck.json.webp",
+      "width": 174,
+      "height": 256
+    },
+    "assets/textures/decks/deck-1/sheet-1.webp": {
+      "inputHash": "01d65785626cf5dd",
+      "file": "thumbnails/assets/textures/decks/deck-1/sheet-1.webp.webp",
+      "width": 256,
+      "height": 237
+    },
+    "assets/textures/decks/deck-1/sheet-2.webp": {
+      "inputHash": "ee7d92adb3a25345",
+      "file": "thumbnails/assets/textures/decks/deck-1/sheet-2.webp.webp",
+      "width": 256,
+      "height": 253
+    },
+    "card_back.webp": {
+      "inputHash": "b884fe25f3c49fc3",
+      "file": "thumbnails/card_back.webp.webp",
+      "width": 174,
+      "height": 256
+    },
+    "media/cover-thumb.webp": {
+      "inputHash": "e9fd331c76d09fc3",
+      "file": "thumbnails/media/cover-thumb.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/cover.webp": {
+      "inputHash": "4e6ec4b1b41500bb",
+      "file": "thumbnails/media/cover.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/screenshot-0.webp": {
+      "inputHash": "2aae9fb0e323bed8",
+      "file": "thumbnails/media/screenshot-0.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-1.webp": {
+      "inputHash": "b462d7777f1ec7c5",
+      "file": "thumbnails/media/screenshot-1.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-2.webp": {
+      "inputHash": "4685053111f28a4a",
+      "file": "thumbnails/media/screenshot-2.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-3.webp": {
+      "inputHash": "0d34dd57cd68b71f",
+      "file": "thumbnails/media/screenshot-3.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "originals/card_back.png": {
+      "inputHash": "56b42c1f0c3e5f71",
+      "file": "thumbnails/originals/card_back.png.webp",
+      "width": 174,
+      "height": 256
+    }
+  }
+}
