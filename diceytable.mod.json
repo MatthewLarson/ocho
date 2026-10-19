@@ -189,5 +189,20 @@
         "signedName": "Matt Larson"
       }
     }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "name": "Standard"
+    },
+    {
+      "id": "scripted",
+      "name": "Scripted",
+      "description": "A scripted variant of OCHO!",
+      "rulesEnforced": true,
+      "ranking": {
+        "requireKernel": true
+      }
+    }
   ]
 }
