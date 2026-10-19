@@ -25,20 +25,7 @@ Each color contains number cards from **1 through 12**, along with several speci
 
 ### Number Cards
 
-Each color contains:
-
-- Two 1 cards
-- Two 2 cards
-- Two 3 cards
-- Two 4 cards
-- Two 5 cards
-- Two 6 cards
-- Two 7 cards
-- Two 8 cards
-- Two 9 cards
-- Two 10 cards
-- Two 11 cards
-- Two 12 cards
+Each color contains two of every number card, **1 through 12**.
 
 This gives each color **24 number cards**.
 
@@ -130,8 +117,6 @@ Play then continues with the following player.
 
 The Skip card's color remains active.
 
----
-
 ## TURN
 
 When a **Turn** card is played, the direction of play changes.
@@ -143,8 +128,6 @@ If play was moving counterclockwise, it now moves clockwise.
 In a two-player game, a Turn card causes the player who played it to take another turn.
 
 The Turn card's color remains active.
-
----
 
 ## DRAW 2
 
@@ -177,8 +160,6 @@ Blue is now the active color.
 The next player must play a Blue card, a Wild card, or a Color Crush card.
 
 A Wild card has no color of its own.
-
----
 
 ## COLOR CRUSH
 
@@ -263,12 +244,7 @@ After a player wins a round, the winner receives points based on the cards remai
 
 ### Number Cards
 
-Worth their printed value.
-
-- 1 = 1 point
-- 2 = 2 points
-- ...
-- 12 = 12 points
+Worth their printed value (1 = 1 point … 12 = 12 points).
 
 ### Special Cards
 
@@ -287,11 +263,13 @@ Add the points from all opponents' remaining cards to the winner's score.
 
 # 11. Winning the Game
 
-Continue playing rounds until one player reaches **300 points**.
+Before the game, agree on the **points to win**: **100** for a quick game, or 200, 300 or 500 for a longer one.
+
+Continue playing rounds until one player reaches the points to win.
 
 The player with the highest score wins.
 
-If multiple players reach or exceed 300 points during the same round, the player with the highest total score wins.
+If multiple players reach or exceed the target during the same round, the player with the highest total score wins.
 
 ---
 
@@ -357,9 +335,31 @@ Sometimes forcing an opponent to draw is more valuable than getting rid of your 
 
 ---
 
+# Playing the Scripted variant
+
+In the **Scripted** variant the table deals, checks every play and keeps the score for you:
+
+- **Points to win:** the room owner picks it in the lobby (100 unless changed).
+- **Your turn:** click a card in your hand (or drag it onto the Play Pile), or use the buttons. Cards that match are outlined. Click the Draw Pile to draw.
+- **Wild / Color Crush:** you are asked which color to name.
+- **OCHO!** When you are down to one card, an **OCHO!** button appears — press it before someone catches you. When another player forgets, a **Catch** button appears for everyone else.
+- Penalty draws and the OCHO Escape happen automatically.
+- With fewer than two players seated, you play a practice game against three bots.
+
+---
+
 # Quick Reference
 
-CardEffectNumberMatch by color or numberSkipNext player loses their turnTurnReverse the direction of playDraw 2Next player draws up to 2, one at a time, and loses their turnWildChoose the active colorColor CrushChoose the active color; next player draws up to 4 and loses their turnOCHO EscapeAn 8 drawn during Draw 2 or Color Crush is immediately played and ends the penaltyOCHOAnnounce when you have one card remaining
+| Card | Effect |
+|---|---|
+| Number | Match by color or number |
+| Skip | Next player loses their turn |
+| Turn | Reverse the direction of play |
+| Draw 2 | Next player draws up to 2, one at a time, and loses their turn |
+| Wild | Choose the active color |
+| Color Crush | Choose the active color; next player draws up to 4 and loses their turn |
+| OCHO Escape | An 8 drawn during Draw 2 or Color Crush is immediately played and ends the penalty |
+| OCHO | Announce when you have one card remaining |
 
 ---
 
