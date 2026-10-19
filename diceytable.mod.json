@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "ocho",
   "name": "OCHO",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json"
@@ -188,6 +188,100 @@
         "acceptedAt": "2026-10-13T19:02:33.917Z",
         "signedName": "Matt Larson"
       }
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "name": "Standard"
+    },
+    {
+      "id": "scripted",
+      "name": "Scripted",
+      "description": "A scripted variant of OCHO!",
+      "rulesEnforced": true,
+      "ranking": {
+        "requireKernel": true
+      }
+    }
+  ],
+  "bots": [
+    {
+      "id": "casual",
+      "label": "Casual",
+      "kind": "scripted",
+      "handler": "casual",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "Often forgets to say OCHO and rarely catches you."
+        },
+        {
+          "id": "normal",
+          "label": "Normal",
+          "description": "Usually says OCHO; catches you most of the time."
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "Never forgets OCHO and always tries to catch you."
+        }
+      ],
+      "defaultDifficulty": "normal",
+      "description": "Plays the obvious card: sheds its priciest matching card, saves Wilds, hits a rival who is nearly out."
+    },
+    {
+      "id": "card-shark",
+      "label": "Card Shark",
+      "kind": "scripted",
+      "handler": "card-shark",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "Looks a little ahead; often forgets OCHO."
+        },
+        {
+          "id": "normal",
+          "label": "Normal",
+          "description": "Thinks it through; usually says OCHO."
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "Thinks hardest; never forgets OCHO and always tries to catch you."
+        }
+      ],
+      "defaultDifficulty": "normal",
+      "description": "Imagines what everyone else might be holding and plays out each choice before picking the best one. Never peeks."
+    }
+  ],
+  "setupOptions": [
+    {
+      "key": "points_to_win",
+      "label": "Points to win",
+      "control": "select",
+      "default": "100",
+      "options": [
+        {
+          "value": "100",
+          "label": "100 (quick)"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300 (the full game)"
+        },
+        {
+          "value": "500",
+          "label": "500 (marathon)"
+        }
+      ],
+      "help": "The first player to reach this score wins. A round's winner scores the cards left in everyone else's hand."
     }
   ]
 }
